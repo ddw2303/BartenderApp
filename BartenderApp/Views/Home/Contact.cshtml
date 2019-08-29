@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+
+<h2>@ViewData["Title"]</h2>
+@*@<h3>@ViewData["Message"]</h3>*@
+    
+
+<p>For assistance please see server. If you'd like to leave feedback, please fill out the form below.</p>
+
+<h3>@ViewBag.TheMessage</h3>
+<form method="post">
+    <textarea name="message"></textarea>
+    <input type="submit" value="Send" />
+</form>
+
+
